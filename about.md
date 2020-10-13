@@ -5,6 +5,5 @@ title: About
 
 Hello.
 
-This will be your About page. Anything about you, it should be written here in details. You may describe your bio here like who you are, what you do, your intention, social site hyperlinks and how people can contact you, etc.
+I am a Research Fellow in Atmospheric Science at Monash University in Australia. I received my Ph.D. in Atmospheric Sciences at Monash University studying boundary layer structure over the Southern Ocean. 
 
-**Less is more..**
