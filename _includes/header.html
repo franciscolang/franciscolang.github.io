@@ -24,7 +24,7 @@
 			{% assign link = '/research' %}
 			<li> <a href="{{ link | prepend: site.baseurl | prepend: site.url }}"> Research </a> </li>
 		{% else %}
-			<li style="font-weight:bold;"> <a> Researches </a> </li>
+			<li style="font-weight:bold;"> <a> Research </a> </li>
 		{% endif %}
 		{% if page.url != '/projects' %}
 			{% assign link = '/projects' %}
@@ -38,13 +38,13 @@
 			{% assign link = '/publications' %}
 			<li> <a href="{{ link | prepend: site.baseurl | prepend: site.url }}"> Publications </a> </li>
 		{% else %}
-			<li style="font-weight:bold;"> <a> Talks </a> </li>
+			<li style="font-weight:bold;"> <a> Publications </a> </li>
 		{% endif %}
 		{% if page.url != '/news' %}
 			{% assign link = '/news' %}
 			<li> <a href="{{ link | prepend: site.baseurl | prepend: site.url }}"> News </a> </li>
 		{% else %}
-			<li style="font-weight:bold;"> <a> Blog </a> </li>
+			<li style="font-weight:bold;"> <a> News </a> </li>
 		{% endif %}
 		{% if page.url != '/contact' %}
 			{% assign link = '/contact' %}
