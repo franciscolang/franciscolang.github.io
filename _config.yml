@@ -1,0 +1,76 @@
+# Site Info
+title:              "Personal Web"
+description:        "My Academic Site"
+author_name:        "Francisco Lang" # change this to your name
+logo_url:           https://avatars2.githubusercontent.com/u/13324477?v=4 # Get it from GitHub API: https://api.github.com/users/<username>
+
+# Site Settings
+url:                https://franciscolang.github.io # main url
+baseurl:            /
+permalink:          /:title # Post permalink
+timezone:           Australia/Melbourne # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+mathjax:            true  # enables support for mathjax - set to 'false' to disable
+
+# Site Build
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
+plugins:
+  - jekyll-sitemap
+collections:
+  researches:
+    output: true
+    permalink: /research/:name
+  projects:
+    output: true
+    permalink: /projects/:name
+  talks:
+    output: true
+    permalink: /publications/:name
+  blog:
+    output: true
+    permalink: /news/:name
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"
+  -
+    scope:
+      type:         "research"
+    values:
+      layout:       "research-post"
+  -
+    scope:
+      type:         "projects"
+    values:
+      layout:       "post"
+  -
+    scope:
+      type:         "publications"
+    values:
+      layout:       "post"
+  -
+    scope:
+      type:         "news"
+    values:
+      layout:       "post"
