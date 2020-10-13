@@ -1,6 +1,6 @@
 ---
 title: Lorem Ipsum
-type: talks
+type: publications
 date: 2015-09-06
 imageurl: /the-plain-academic/assets/preview-mycat.png
 authors: Someone
