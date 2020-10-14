@@ -1,6 +1,6 @@
 ---
 title: For Example of very Long Title Would Be Typography Elements in One
-type: talks
+type: publications
 date: 2016-10-18
 imageurl: /the-plain-academic/assets/preview-mycat.png
 authors: Someone
