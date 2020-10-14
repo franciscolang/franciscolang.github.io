@@ -1,6 +1,6 @@
 ---
 title: Download this Theme
-type: talks
+type: publications
 date: 2015-09-09
 imageurl: /the-plain-academic/assets/preview-mycat.png
 authors: Someone
